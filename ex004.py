@@ -9,10 +9,9 @@ print(kit)
 date = open('position.txt', 'r')
 # date.write('3\n')
 date.close
-kit_2 = []
 kit_2 = date.readlines()
-# print(t)
+print(kit_2)
 sum = 1
-for i in kit_2:
-    sum*=(kit[int(i)])
+for j in kit_2:
+    sum*=kit[int(j)]
 print(sum)
